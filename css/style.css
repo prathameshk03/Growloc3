@@ -216,7 +216,7 @@ section{
 }
 
 .header .navbar-brand{ /*navbar-logo*/
-    width: 8rem;
+    width: 14rem;
     margin-top: -0.1rem;
 }
 
@@ -316,10 +316,20 @@ section{
     display: inline;
 }
 
+@media screen and (max-width: 800px){
+    .banner_section .carousel-caption h3{
+        display: block;
+        padding: 0;
+        text-align: center;
+    }
+}
+
 .banner_section .carousel-caption p{
     padding: 0.5rem 0.5rem;
     background-color: var(--light-text);
     margin: 2rem;
+    font-size: 1.8rem;
+    color: var(--primary-text);
 }
 
 /*Features*/
@@ -400,6 +410,7 @@ section{
     align-items: center;
     height: 90%;
     width: 90%;
+    margin: auto;
 }
 
 .landing_product_section .product-card .product-img{
@@ -632,7 +643,6 @@ section{
 }
 
 
-
 /*Whatsapp*/
 .whatsapp_float {
     position: fixed;
@@ -756,7 +766,8 @@ section{
 
 .contact-col {
     width: fit-content;
-    margin-bottom: 3rem; 
+    border: none;
+    padding: 0;
 }
 
 .contact-col div{
@@ -800,5 +811,4 @@ section{
     color: var(--primary-text);
     text-align: justify;
 }
-
 
