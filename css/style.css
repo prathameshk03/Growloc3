@@ -295,6 +295,10 @@ section{
     height: 90vh;
 }
 
+.banner_section .carousel-indicators{
+    margin: -25px;
+}
+
 .banner_section .carousel-caption{
     top: 40%;
     /*top: 20%;     for left sided
