@@ -14,12 +14,16 @@
 :root{
 
     --bg-white: #fff;
-    --bg-dark: #03262c;
+    /*--bg-dark: #03262c;*/
+    --bg-dark: #0f2121;
 
-    --primary-text: #061738;
-    --secondary-color: #60cd12;
+   /* --primary-text: #061738;*/
+    --primary-text: #1D0330;
+    /*--secondary-color: #60cd12;*/
+    --secondary-color: #25d366;
     --light-text: #e2f6de;
-    --dark-color: #03262c;
+    /*--dark-color: #03262c;*/
+    --dark-color: #0f2121;
     --text-white: white;
     --text-gray: #dee2e6;
     --anchor-color: #007aff;
