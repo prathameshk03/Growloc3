@@ -145,7 +145,8 @@ button:hover{ /*btn maybe*/
 .main-btn{
     position: relative;
     color: var(--bg-white);
-    background: linear-gradient(to right, #0f7404, #5cb917);
+    /*background: linear-gradient(to right, #0f7404, #5cb917);*/
+    background: linear-gradient(to right, #178641, #20cc77);
     z-index: 1;
     overflow: hidden;
     border: 0.2rem solid;
